@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    background-color:  #EEE;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #222;
+    font-family: Arial;
+    margin-bottom: 1.5em;
+}
+
+ul{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-padding-start: 0px;
+}
+
+#slideshow>div {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+#cadre{
+    box-shadow: 0 0 5px #BBB;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    padding: 20px 0;
+}
+
+#slider{
+    display: flex;
+    padding: 20px;
+}
+
+#slider_barre{
+    width: 750px;
+    overflow: hidden;
+}
+
+#barre{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 0;
+    padding-left: 0;
+}
+
+#barre li{
+    display: flex;
+    flex-direction: column;
+}
+
+#barre img {
+    width: 750px;
+}
+
+#barre .title_cam{
+    background-color: #222;
+    color: white;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 3px;
+}
+
+#div_btn_imgs{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#div_btn_imgs li{
+    list-style-type: none;
+    display: inline-block;
+
+    border: 1px solid #CCC;
+    padding: 11px 8px;
+    background: #EEE;
+    cursor: pointer;
+}
+
+#div_btn_imgs li.li_actif{
+    background-color: #FFF;
+}
+
+#div_btn_imgs img{
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+#div_btn_puces i {
+    color: #222;
+    font-size: 16px;
+    padding: 2px;
+    margin: 2px;
+}
+
+#div_btn_puces i:hover {
+    cursor: pointer;
+}
+
+#action_diapo{
+    display: flex;
+}
+
+#action_diapo button{
+    background-color: #EEE;
+    padding: 0;
+    border: 0;
+}
+
+#action_diapo i{
+    padding: 5px;
+    box-shadow: 0 0 5px #BBB;
+    border: 1px solid #CCC;
+}
+
+#action_diapo i:hover{
+    cursor: pointer;
+    background-color: #FFF;
+}
+
+#start[disabled] i:hover{
+    cursor: auto;
+    background-color: #EEE;
+}
+
